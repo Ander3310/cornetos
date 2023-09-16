@@ -1,0 +1,221 @@
+.stilo {
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #6faaff;
+    display: none;
+    align-items: left;
+    width: 110px;
+
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blueviolet;
+    color: blacks;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrega {
+    display: flex;
+    gap: 54px
+}
+
+.entrega img {
+    object-fit: contain;
+}
+
+.entrega button {
+    max-height: 35px;
+}
+
+.hero::before {
+    content: "";
+    background-image: url(imagenes/principal.jpg);
+    background-position: center;
+    width: 100%;
+    height: 611px;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: black;
+    height: 611px;
+}
+
+.hero h3,
+.hero h1 {
+    position: absolute;
+    top: 35%;
+    transform: translateY(90%);
+    text-align: center;
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+
+
+}
+
+.barra {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cards {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cards p {
+    text-align: center;
+    color: black;
+
+}
+
+.cards img {
+    width: 20rem;
+    height: 20rem;
+    padding: 2rem 0 0 0;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.container h2 {
+    text-align: center;
+    color: red;
+    font-size: 60px;
+}
+
+.producto {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    margin-right: 10%;
+    margin-top: -35%;
+    font-size: 1.3rem;
+
+
+}
+
+.producto-v {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    margin-top: -250px;
+    font-size: 1.3rem;
+}
+
+.img-producto {
+    margin-left: 150px;
+}
+
+.producto-p {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-size: 2.7rem;
+    background-color: blueviolet;
+    padding: 12px;
+    border-radius: 40px;
+
+}
+
+.producto-button {
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    margin-right: 150px;
+    margin-top: 10px;
+    height: 3rem;
+    width: 14.5rem;
+    font-size: 1.7rem;
+    background-color: aqua;
+    border-radius: 40px;
+
+}
+
+.producto-galleta {
+    display: grid;
+    align-items: right;
+    margin-right: 30px;
+    justify-items: right;
+    margin-top: -25%;
+    font-size: 1.3rem;
+
+}
+
+.img-galleta {
+    margin-left: 60px;
+}
+
+footer {
+    background-color: #6faaff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-top: 7rem;
+}
+
+.banner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.banner-cop {
+    margin-top: 35px;
+
+}
+
+.quienes-somos {
+    display: flex;
+    align-items: center;
+    color: black;
+    height: 611px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.quienes-somos fieldset {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    
+}
