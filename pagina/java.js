@@ -77,7 +77,7 @@ function mostrarCartas(array, divId, tipo) {
 
         /* Se crea una etiqueta <a> y se crea un enlace a otra página */
         let enlace = document.createElement('a');
-        enlace.href = "PRODUCTOS/"+tipo+[i+1]+".html";
+        enlace.href = "PRODUCTOS/"+tipo+[i+1]+".HTML";
         enlace.innerHTML = "Detalle del producto",
         enlace.className = "btn";
         divCarta.append(enlace);
