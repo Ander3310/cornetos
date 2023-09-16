@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function RedirigirFormulario() {
-    window.location.href = "formulario.html";
+    window.location.href = "/pagina/formulario.html";
 }
 const listadetodo = [
     ["Aceite vegetal", "aceite.png", "$20000"],
